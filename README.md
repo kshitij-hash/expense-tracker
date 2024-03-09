@@ -9,6 +9,9 @@ This is a simple web application designed to help users track their daily expens
 - **Real-time Updates:** The application utilizes Firebase real-time database to ensure that any changes made to the expense list are immediately reflected across all devices.
 - **Responsive Design:** The application is designed to be responsive, providing an optimal viewing and interaction experience for both mobile and desktop users.
 
+## Video Demo
+https://github.com/kshitij-hash/expense-tracker/assets/83551355/db3603bf-d1a2-4b5b-82c6-026be0b13eda
+
 ## Technologies Used
 - HTML: Used for structuring the web page.
 - CSS: Used for styling the user interface.
