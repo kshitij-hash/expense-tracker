@@ -10,7 +10,12 @@ This is a simple web application designed to help users track their daily expens
 - **Responsive Design:** The application is designed to be responsive, providing an optimal viewing and interaction experience for both mobile and desktop users.
 
 ## Video Demo
-https://github.com/kshitij-hash/expense-tracker/assets/83551355/db3603bf-d1a2-4b5b-82c6-026be0b13eda
+
+### Desktop 
+https://github.com/kshitij-hash/expense-tracker/assets/83551355/70e19452-3431-4ac2-81be-48ae3eedeae3
+
+### Mobile
+https://github.com/kshitij-hash/expense-tracker/assets/83551355/22117c18-1824-4449-8a97-f798e0712957
 
 ## Technologies Used
 - HTML: Used for structuring the web page.
