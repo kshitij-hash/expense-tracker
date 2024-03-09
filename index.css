@@ -1,0 +1,233 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    background-color: rgb(255, 247, 241);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.login-container {
+    width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-container h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+#login-btn {
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    background-color: rgb(231, 136, 149, 0.7);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+#login-btn:hover {
+    background-color: rgb(231, 136, 149);
+}
+
+.fa-google {
+    background: transparent;
+    color: white;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 40px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#logout-btn {
+    background-color: red;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expense-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date {
+    margin-top: 20px;
+    text-align: center;
+    transition: opacity 0.5 ease;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#total-expenses {
+    text-align: center;
+    border: none;
+    font-size: 2.5rem;
+    border-radius: 0.7rem;
+    margin-top: 20px;
+    background-color: rgba(190, 209, 207, 0.5);
+    width: 100%;
+    padding: 0.5rem 0;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+#msg {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#expense-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+#expense-list ul li {
+    background-color: rgba(190, 209, 207, 0.5);
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+#expense {
+    text-align: center;
+    border: none;
+    font-size: 2.5rem;
+    border-radius: 0.7rem;
+    margin-bottom: 20px;
+    padding: 0.5rem 0;
+    background-color: rgba(190, 209, 207, 0.5);
+    margin-top: 20px;
+}
+
+#item {
+    width: inherit;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    border: none;
+    outline: none;
+    background-color: rgba(190, 209, 207, 0.5);
+    font-size: 1.5rem;
+}
+
+.keypad {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.keypad button {
+    font-weight: 600;
+}
+
+button {
+    background-color: rgb(255, 228, 201);
+    border: none;
+    padding: 1rem 0rem;
+    border-radius: 1.2rem;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 228, 201);
+}
+
+#cross-btn {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#submit-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    background-color: rgb(231, 136, 149);
+    border: none;
+    cursor: pointer;
+}
+
+#no-item-msg {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .main {
+        width: 300px;
+    }
+    .two {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .form-inner-container {
+        width: 300px;
+    }
+}
+
+.hidden {
+    display: none;
+}
